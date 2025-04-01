@@ -1,24 +1,29 @@
 {
-  "name": "forkify",
+  "name": "starter",
   "version": "1.0.0",
-  "description": "Recipe application",
-  "default": "index.html",
+  "description": "Recipe application with custom recipe uploads.",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html"
   },
-  "author": "Jonas Schedtmann",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lengocsangsang/myrestaurant.git"
+  },
+  "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "sass": "^1.72.0",
-    "svgo": "^3.3.2"
+  "bugs": {
+    "url": "https://github.com/lengocsangsang/myrestaurant/issues"
   },
+  "homepage": "https://github.com/lengocsangsang/myrestaurant#readme",
   "dependencies": {
-    "@parcel/transformer-sass": "^2.14.4",
-    "core-js": "^3.33.5",
+    "core-js": "^3.41.0",
     "fraction.js": "^5.2.2",
-    "fractional": "^1.0.0",
     "parcel": "^2.14.4",
-    "regenerator-runtime": "^0.14.0"
+    "sass": "^1.86.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.14.4",
+    "svgo": "^3.3.2"
   }
 }
