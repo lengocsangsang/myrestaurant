@@ -119,6 +119,10 @@ const controlAddRecipe = async function (newRecipe) {
   }
 };
 
+const ghostFunction = function () {
+  console.log('I am a ghost. you know? let us be friends!');
+};
+
 const init = function () {
   bookmarksView.addHandlerRender(controlBookmarks);
   recipeView.addHandlerRender(controlRecipes);
@@ -127,5 +131,6 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
+  ghostFunction();
 };
 init();
